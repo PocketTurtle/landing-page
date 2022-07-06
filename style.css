@@ -5,14 +5,17 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #1f2937;
+}
+
+html{
+    padding: 0 250px;
 }
 
     .header {
         display: flex;
         justify-content: space-between;
-        margin: 0;
-        padding: 0 150px;
     }
 
     h1{
@@ -22,6 +25,17 @@ body {
     }
 
     .title {
+        display: flex;
+        justify-content: space-between;
+        padding: 75px 0;
+    }
+    
+    .left-side {
+        
+    }
+
+    #awesome {
+        display: flex;
         font-size: 48px;
     }
 
@@ -35,4 +49,23 @@ body {
         text-decoration: none;
         font-size: 18px;
         color: #e5e7eb
+    }
+
+    p {
+        font-size: 18px;
+        color: #e5e7eb
+    }
+
+    button {
+        padding: 8px 20px;
+        background-color: #2883f6;
+        font-color: white;
+        border-style: none;
+        border-radius: 5px;
+    }
+
+
+    img{
+        width: 40%;
+        height: auto;
     }
