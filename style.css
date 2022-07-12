@@ -33,7 +33,6 @@ html{
     .left-side {
         display:flex;
         flex-direction: column;
-        justify-content: flex-start;
     }
 
     #awesome {
@@ -59,8 +58,9 @@ html{
     }
 
     button {
-        display: flex;
-        flex: 0 1 auto;
+        display: border-box;
+        text-align:center;
+        width: 12%;
         padding: 8px 20px;
         background-color: #2883f6;
         color: white;
@@ -68,9 +68,15 @@ html{
         border-radius: 5px;
     }
 
-
+    .box{
+        width:500px;
+        height: auto;
+    }
     img{
         border:2px solid #e5e7eb;
-        width: 40%;
-        height: auto;
+        width: 100%;
+        height: 100%;
+    }
+    .cover{
+        object-fit: cover;
     }
