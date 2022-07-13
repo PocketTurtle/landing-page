@@ -58,8 +58,10 @@ html{
     }
 
     button {
-        display: border-box;
-        text-align:center;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: none;
         width: 12%;
         padding: 8px 20px;
         background-color: #2883f6;
@@ -69,8 +71,8 @@ html{
     }
 
     .box{
-        width:500px;
-        height: auto;
+        width:800px;
+        height: 300px;;
     }
     img{
         border:2px solid #e5e7eb;
